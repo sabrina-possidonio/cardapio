@@ -1,0 +1,85 @@
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #ff7b00;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #B22222;
+    padding: 0.5rem;
+  }
+
+  nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  .hero {
+    background-image: url('churrascaria.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(177, 64, 12);
+    text-align: center;
+    padding: 4rem 1rem;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+
+  .hero p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  .content {
+    padding: 2rem;
+  }
+
+  .content h2 {
+    text-align: center;
+    color: #ff7300;
+    font-size: 4rem ;
+  }
+
+  .content p {
+    text-align:center;
+    font-size: 1.8rem;
+  }
+
+  footer {
+    background-color: #ff5e00;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    
+  }
+  .foto{
+    display: flex;
+    justify-content: center;
+  }
+  .churras{
+    display: flex;
+    justify-content: center;
+  }
+</style>
